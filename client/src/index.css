@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-size: 14px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+  background-color: #120F13;
+  color: #eeeeee;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  background-color: transparent; 
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: #555555;
+  border-radius: 25px; 
+}
