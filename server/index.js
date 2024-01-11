@@ -12,7 +12,7 @@ const port = 3333;
 const app = express();
 
 app.use(cors({
-    origin: "https://task-manager-client-psi.vercel.app",
+    origin: "https://task-manager-client-iota.vercel.app",
     credentials: true,
 }));
 // parse application/x-www-form-urlencoded
