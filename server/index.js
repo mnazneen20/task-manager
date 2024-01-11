@@ -12,7 +12,7 @@ const port = 3333;
 const app = express();
 
 app.use(cors({
-    origin: "https://task-manager-client-lime.vercel.app/*",
+    origin: "*",
     credentials: true,
 }));
 // parse application/x-www-form-urlencoded
